@@ -16,6 +16,7 @@
 		FDB07D5F2C87EDB40042E9D0 /* wk5_weatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB07D5E2C87EDB40042E9D0 /* wk5_weatherUITestsLaunchTests.swift */; };
 		FDB07D6C2C87EE6F0042E9D0 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB07D6B2C87EE6F0042E9D0 /* WeatherData.swift */; };
 		FDB07D6E2C87F2090042E9D0 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB07D6D2C87F2090042E9D0 /* WeatherViewModel.swift */; };
+		FDC406FE2C9132EC00C764F4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC406FD2C9132EC00C764F4 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		FDB07D5E2C87EDB40042E9D0 /* wk5_weatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wk5_weatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FDB07D6B2C87EE6F0042E9D0 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		FDB07D6D2C87F2090042E9D0 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		FDC406FD2C9132EC00C764F4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +105,6 @@
 				FDC406FA2C91311500C764F4 /* Views */,
 				FDB07D412C87EDB30042E9D0 /* wk5_weatherApp.swift */,
 				FDB07D432C87EDB30042E9D0 /* ContentView.swift */,
-				FDB07D6B2C87EE6F0042E9D0 /* WeatherData.swift */,
 				FDB07D452C87EDB40042E9D0 /* Assets.xcassets */,
 				FDB07D472C87EDB40042E9D0 /* Preview Content */,
 			);
@@ -138,6 +139,7 @@
 		FDC406FA2C91311500C764F4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FDC406FD2C9132EC00C764F4 /* MapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -153,6 +155,7 @@
 		FDC406FC2C91312400C764F4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FDB07D6B2C87EE6F0042E9D0 /* WeatherData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			files = (
 				FDB07D442C87EDB30042E9D0 /* ContentView.swift in Sources */,
 				FDB07D6E2C87F2090042E9D0 /* WeatherViewModel.swift in Sources */,
+				FDC406FE2C9132EC00C764F4 /* MapView.swift in Sources */,
 				FDB07D6C2C87EE6F0042E9D0 /* WeatherData.swift in Sources */,
 				FDB07D422C87EDB30042E9D0 /* wk5_weatherApp.swift in Sources */,
 			);
