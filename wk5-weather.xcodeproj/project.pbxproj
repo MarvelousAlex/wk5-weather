@@ -14,6 +14,8 @@
 		FDB07D532C87EDB40042E9D0 /* wk5_weatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB07D522C87EDB40042E9D0 /* wk5_weatherTests.swift */; };
 		FDB07D5D2C87EDB40042E9D0 /* wk5_weatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB07D5C2C87EDB40042E9D0 /* wk5_weatherUITests.swift */; };
 		FDB07D5F2C87EDB40042E9D0 /* wk5_weatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB07D5E2C87EDB40042E9D0 /* wk5_weatherUITestsLaunchTests.swift */; };
+		FDB07D6C2C87EE6F0042E9D0 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB07D6B2C87EE6F0042E9D0 /* WeatherData.swift */; };
+		FDB07D6E2C87F2090042E9D0 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB07D6D2C87F2090042E9D0 /* WeatherViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		FDB07D582C87EDB40042E9D0 /* wk5-weatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wk5-weatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB07D5C2C87EDB40042E9D0 /* wk5_weatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wk5_weatherUITests.swift; sourceTree = "<group>"; };
 		FDB07D5E2C87EDB40042E9D0 /* wk5_weatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wk5_weatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FDB07D6B2C87EE6F0042E9D0 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		FDB07D6D2C87F2090042E9D0 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,12 @@
 		FDB07D402C87EDB30042E9D0 /* wk5-weather */ = {
 			isa = PBXGroup;
 			children = (
+				FDC406FC2C91312400C764F4 /* Models */,
+				FDC406FB2C91311D00C764F4 /* ViewModels */,
+				FDC406FA2C91311500C764F4 /* Views */,
 				FDB07D412C87EDB30042E9D0 /* wk5_weatherApp.swift */,
 				FDB07D432C87EDB30042E9D0 /* ContentView.swift */,
+				FDB07D6B2C87EE6F0042E9D0 /* WeatherData.swift */,
 				FDB07D452C87EDB40042E9D0 /* Assets.xcassets */,
 				FDB07D472C87EDB40042E9D0 /* Preview Content */,
 			);
@@ -125,6 +133,28 @@
 				FDB07D5E2C87EDB40042E9D0 /* wk5_weatherUITestsLaunchTests.swift */,
 			);
 			path = "wk5-weatherUITests";
+			sourceTree = "<group>";
+		};
+		FDC406FA2C91311500C764F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FDC406FB2C91311D00C764F4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FDB07D6D2C87F2090042E9D0 /* WeatherViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FDC406FC2C91312400C764F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDB07D442C87EDB30042E9D0 /* ContentView.swift in Sources */,
+				FDB07D6E2C87F2090042E9D0 /* WeatherViewModel.swift in Sources */,
+				FDB07D6C2C87EE6F0042E9D0 /* WeatherData.swift in Sources */,
 				FDB07D422C87EDB30042E9D0 /* wk5_weatherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"wk5-weather/Preview Content\"";
+				DEVELOPMENT_TEAM = 644PY253DJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +483,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"wk5-weather/Preview Content\"";
+				DEVELOPMENT_TEAM = 644PY253DJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
