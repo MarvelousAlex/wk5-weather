@@ -38,10 +38,13 @@ class WeatherViewModel: ObservableObject {
 	func parseJSON(weatherData: Data) {
 		let decoder = JSONDecoder()
 		do {
-			let decodedData = try decoder.decode(weatherData.self, from: weatherData)
-			DispatchQueue.mian.async {
+			let decodedData = try decoder.decode(WeatherData.self, from: weatherData)
+			DispatchQueue.main.async {
 				self.weatherData = decodedData
 			}
+		} catch {
+			print(error)
 		}
-	}
+	} // the end of the parseJSON
+	
 }

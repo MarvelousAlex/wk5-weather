@@ -17,6 +17,7 @@
 		FDB07D6C2C87EE6F0042E9D0 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB07D6B2C87EE6F0042E9D0 /* WeatherData.swift */; };
 		FDB07D6E2C87F2090042E9D0 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB07D6D2C87F2090042E9D0 /* WeatherViewModel.swift */; };
 		FDC406FE2C9132EC00C764F4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC406FD2C9132EC00C764F4 /* MapView.swift */; };
+		FDC407012C91349100C764F4 /* WeatherDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDC406FF2C91349100C764F4 /* WeatherDataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		FDB07D6B2C87EE6F0042E9D0 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		FDB07D6D2C87F2090042E9D0 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 		FDC406FD2C9132EC00C764F4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		FDC407002C91349100C764F4 /* WeatherDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeatherDataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				FDB07D412C87EDB30042E9D0 /* wk5_weatherApp.swift */,
 				FDB07D432C87EDB30042E9D0 /* ContentView.swift */,
 				FDB07D452C87EDB40042E9D0 /* Assets.xcassets */,
+				FDC406FF2C91349100C764F4 /* WeatherDataModel.xcdatamodeld */,
 				FDB07D472C87EDB40042E9D0 /* Preview Content */,
 			);
 			path = "wk5-weather";
@@ -290,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDC407012C91349100C764F4 /* WeatherDataModel.xcdatamodeld in Sources */,
 				FDB07D442C87EDB30042E9D0 /* ContentView.swift in Sources */,
 				FDB07D6E2C87F2090042E9D0 /* WeatherViewModel.swift in Sources */,
 				FDC406FE2C9132EC00C764F4 /* MapView.swift in Sources */,
@@ -620,6 +624,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDC406FF2C91349100C764F4 /* WeatherDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDC407002C91349100C764F4 /* WeatherDataModel.xcdatamodel */,
+			);
+			currentVersion = FDC407002C91349100C764F4 /* WeatherDataModel.xcdatamodel */;
+			path = WeatherDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FDB07D362C87EDB30042E9D0 /* Project object */;
 }
